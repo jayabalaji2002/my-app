@@ -95,8 +95,44 @@ h5 {
     letter-spacing: 0.2px;
 }
 
+.column_layout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
 .feature-item {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.feature-item02 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 290px;
+    height: 48px;
+}
+.feature-item03 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 220px;   
+    height: 26px;
+}
+
+.h6 {
+    color: var(--second-text-color, #737373);
+
+    /* h6 */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.2px;
 }

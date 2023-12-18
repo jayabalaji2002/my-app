@@ -1,5 +1,5 @@
 import './App.css'
-import Footer from './Components/Footer';
+// import Footer from './Components/Footer';
 // import Companies from './Components/Companies';
 // import Container2 from './Components/Container2';
 // import Companies from './Components/Companies';
@@ -12,7 +12,7 @@ function App() {
       {/* <Header/> */}
       {/* <Container2/> */}
       {/* <Companies/> */}
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
