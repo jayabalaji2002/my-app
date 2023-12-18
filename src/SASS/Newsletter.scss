@@ -1,0 +1,84 @@
+.maindiv {
+    width: 1440px;
+    height: 594px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    width: 692px;
+    height: 116px;
+    background-color: aqua;
+    padding: 100px 0 0 160px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowh6 {
+    color: var(--primary-text-color, #FF6551);
+    text-align: center;
+
+    /* h6 */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+.rowh3 {
+    color: var(--text-color, #252B42);
+    text-align: center;
+
+    /* h3 */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 133.333% */
+    letter-spacing: 0.1px;
+}
+
+.rowp {
+    color: var(--second-text-color, #737373);
+    text-align: center;
+
+    /* paragraph */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+
+
+
+
+.email {
+    width: 688px;
+    height: 58px;
+    background-color: purple;
+}
+
+
+.form-control {
+    display: flex;
+    width: 200px;
+    padding: 15px 591px 15px 20px;
+    align-items: center;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}

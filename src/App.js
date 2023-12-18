@@ -1,4 +1,5 @@
 import './App.css'
+import Newsletter from './Components/Newsletter';
 // import Footer from './Components/Footer';
 // import Companies from './Components/Companies';
 // import Container2 from './Components/Container2';
@@ -12,6 +13,7 @@ function App() {
       {/* <Header/> */}
       {/* <Container2/> */}
       {/* <Companies/> */}
+      <Newsletter/>
       {/* <Footer/> */}
     </div>
   );
